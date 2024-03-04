@@ -1,0 +1,126 @@
+body {
+    margin: 0%;
+}
+
+#contenedor {
+    position: relative;
+    height: 100%;
+}
+
+.row img {
+    position: relative;
+    left: 0px;
+    margin: 0%;
+    margin-top: 10px;
+    height: 562px;
+    width: 1250px;
+}
+
+
+#texto {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    /* Margen de 20px desde el borde izquierdo */
+    transform: translate(0, -50%);
+    /* Fondo semi-transparente para mejorar la legibilidad del texto */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+}
+
+p {
+    margin-top: 80px;
+
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+#btn-cita {
+    margin-top: 20px;
+    /* Espacio superior de 23px desde el párrafo */
+    margin-left: 20px;
+    /* Margen de 20px desde el borde izquierdo */
+}
+
+/*Doctores
+Estilos para los botones */
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn label {
+    display: block;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+}
+
+.btn img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-1 label {
+    background-color: #e74c3c;
+}
+
+.btn-2 label {
+    background-color: #2ecc71;
+}
+
+.btn-3 label {
+    background-color: #f39c12;
+}
+
+.btn-4 label {
+    background-color: #9b59b6;
+}
+.btn-5 label {
+    background-color: #6486d5;
+}
+
+.btn-primary{
+    bottom: 40px;
+}
+
+#mapa {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

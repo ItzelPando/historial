@@ -1,0 +1,64 @@
+.card {
+    min-width: 100px; /* Ancho mínimo */
+    min-height: 179px; /* Altura mínima */
+    border-radius: 25px; /* Redondeo de borde */
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+    padding: 16px;
+}
+
+.card.bg-color-1 {
+    background-color: #FF5733; /* Color de fondo para la tarjeta 1 */
+    background-image: linear-gradient(43deg, #2C86DA 100%,  #5AA7EE 25%);
+    height: 300px ;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2. 1fr);
+}
+.item1-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item1-2{
+    grid-column-start: -1;
+    grid-column-end: -2;
+}
+
+
+.card.bg-color-2 {
+    background-color: #f7f7f7; /* Color de fondo para la tarjeta 2 */
+    background-image: linear-gradient(43deg, #2C86DA 100%,  #5AA7EE 25%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2. 1fr);
+}
+.item2-1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+.item2-2{
+    grid-column-start: -1;
+    grid-column-end: -2;
+    grid-row-start: -1;
+    grid-row-end: -3;
+
+}
+.ppoo{
+    height: 130px;
+    width: 110px;
+}
+.card.bg-color-3 {
+    background-color: #5733FF; /* Color de fondo para la tarjeta 3 */
+    background-image: linear-gradient(43deg, #f0f4f8 100%,  #5AA7EE 25%);
+}
+
+.card.bg-color-4 {
+    background-color: #33B5FF; /* Color de fondo para la tarjeta 4 */
+    background-image: linear-gradient(43deg, #02ADA3 100%,  #15D3C8 100%);
+}
+
+.card.bg-color-5 {
+    background-color: #26e66f; /* Color de fondo para la tarjeta 4 */
+    height: 300px ;
+}
