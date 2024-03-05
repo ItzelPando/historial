@@ -18,8 +18,8 @@
     <main>
     <div class="container" id="contenedor">
         <div class="row">
+        <img src="vistas/img/hospital_bg.png" alt=""style="height: 562px; width: 1250px; margin-top: 10px; margin: 0px;">
             <div class="col-md-12">
-            <img src="vistas/img/login.png" alt=""style="height: 562px; width: 1250px; margin-top: 10px; margin: 0px;">
             </div>
             <div id="texto" class="col-md-8">
                 <h1>HOSPITAL PROVIDENCE</h1>
