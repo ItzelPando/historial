@@ -178,3 +178,49 @@ nav{
   .textos{
     margin-right: 60px;
   }
+
+  /*css navbar2*/
+  .rectangle2 {
+    position: absolute;
+    width: 164px;
+    height: 37px;
+    top: 0;
+    left: 0;
+    background: #d9d9d9;
+    border-radius: 200px;
+  }
+  .ellipse {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 4px;
+    left: 5px;
+    background: url(./assets/images/8189588c-675a-4847-9d51-760cdb0cc3af.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .wade-warren {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 40px; /* Ajusta la posición del nombre */
+    color: #000000;
+    font-family: Istok Web, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.btn-profile {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  z-index: 1;
+}
