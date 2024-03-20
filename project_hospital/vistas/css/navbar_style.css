@@ -224,9 +224,15 @@ nav{
 .dropdown-content{
   display: none;
   position: absolute;
-  width: 100%;
+  width: auto;
   overflow: auto;
-
+  left: -100%;
+  top: 100%; /* Desplazar el menú hacia abajo */
+  background-color: #f2f2f2; /* Color de fondo gris */
+  border: 1px solid #ddd; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px; /* Espaciado interno */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .dropdown:hover .dropdown-content {
@@ -239,6 +245,7 @@ nav{
   color: #000000;
   padding: 5px;
   font-family: Istok Web, var(--default-font-family);
+  font-weight: 600;
 }
 
 .dropdown-content a:hover{
