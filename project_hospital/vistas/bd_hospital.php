@@ -17,7 +17,7 @@ $email = $_POST['correo'];
 $password = $_POST['password'];
 
 //consulta SQL para verificar el user y password
-$sql = "SELECT id_usuario, username, correo, password FROM usuarios WHERE correo='$email' AND password='$password'";
+$sql = "SELECT id, name, lastname, email, password FROM pacientes WHERE email='$email' AND password='$password'";
 $result = $conn->query($sql);
 
 if ($result === false) {
@@ -28,7 +28,7 @@ if($result ->num_rows >0){
     $_SESSION['correo']=$email;
     $_SESSION['password']=$password;
     $_SESSION['username']=$row['username'];
-    header('Location: welcome.php');}
+    header('Location: dashboard.php');}
     else{
         echo "Inicio de sesion fallido .<br>
             <a href='/vistas/login.php'>Intentar de nuevo</a>";

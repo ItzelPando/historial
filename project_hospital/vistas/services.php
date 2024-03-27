@@ -99,9 +99,6 @@
             crossorigin="anonymous"
         ></script>
         </main>
-        <footer>
-            <?php include 'footer.php'?>
-        </footer>
     </body>
 
 </html>

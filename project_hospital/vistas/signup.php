@@ -33,7 +33,7 @@
         <div class="text-center">
                 <p style="font-size: 20px;">Sign in to your account and we'll grant you<br> access to see our doctors.</p>
         </div>
-        <form action="insert_data.php" method="post">
+        <form action="guardar_datos.php" method="post">
             <div class="form-group">
                 <label for="name" class="name">Name</label>
                 <input type="text" id="name" class="form-control campo-name" name="name">

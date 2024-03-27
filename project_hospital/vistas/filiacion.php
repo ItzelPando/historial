@@ -6,11 +6,13 @@
     <title>Filiacion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/filiacion.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header>
         <?php include 'navbar.php'?>
     </header>
+    <main>
     <h1 style="margin: 50px;"><center> Affiliation Data</center></h1>
     <div class="container">
         <div class="rectangulo">
@@ -41,6 +43,9 @@
                 <button class="btn-primary" onclick="mostrarPaso2()">Submit</button>
             </div>
             <div id="paso2" style="display: none;">
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 50%">50%</div>
+                </div>
                 <form>
                     <div class="row">
                         <div class="col-md-6">
@@ -77,10 +82,13 @@
                         </div> 
                     </div><br>
                 </form>
-                <button class="btn-primary" onclick="mostrarPaso1()">back</button>
+                <button class="btn-primary" onclick="mostrarPaso1()">Back</button>
                 <button class="btn-primary" onclick="mostrarPaso3()">Submit</button>
             </div>
             <div id="paso3" style="display: none;">
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 75%">75%</div>
+                </div>
                 <form>
                     <h3>Blood type</h3>
                     <div class="row">
@@ -116,10 +124,13 @@
                         <textarea class="form-control" id="mensaje" rows="4" placeholder="Escriba su mensaje"></textarea>
                     </div> <br>
                 </form>
-                <button class="btn-primary" onclick="mostrarPaso2()">back</button>
+                <button class="btn-primary" onclick="mostrarPaso2()">Back</button>
                 <button class="btn-primary" onclick="mostrarPaso4()">Submit</button>
             </div>
             <div id="paso4" style="display: none;">
+                <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%">100%</div>
+                </div>
                 <form>
                     <h3>Immunization</h3>
                     <div class="row">
@@ -159,7 +170,6 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                        <div class="vr" style="heigh:650px;"></div>
                             <div class="row">
                                 <div class="col-md-4">
                                     <label><input type="radio" id="inm1" name="inmunizacion" value="pen1">Fiebre Amarilla</label>
@@ -195,13 +205,17 @@
                             </div>
                         </div>
                     </div>
-                </form>
-                <button class="btn-primary" onclick="mostrarPaso3()">back</button>
+                </form> <br>
+                <button class="btn-primary" onclick="mostrarPaso3()">Back</button>
                 <button class="btn-primary">Submit</button>
         </div>
 
-
         <script>
+            function mostrarPaso1(){
+                // Muestra el paso 2
+                document.getElementById('paso1').style.display = 'block';
+            }
+
             function mostrarPaso2() {
                 // Oculta el paso 1
                 document.getElementById('paso1').style.display = 'none';
@@ -223,6 +237,7 @@
             document.getElementById('paso4').style.display = 'block';
             }
     </script>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

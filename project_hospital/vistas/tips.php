@@ -83,8 +83,5 @@
             </div>
         </div>
         </main>
-        <header>
-            <?php include 'footer.php';?>
-        </header>
     </body>
     </html>
