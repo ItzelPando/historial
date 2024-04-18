@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="Logo navbar-brand" href=""><img class="Logo" src="vistas/img/LOGO_WEB.png"></a>
+                <a class="Logo navbar-brand" href="http://project_hospital.test"><img class="Logo" src="img/LOGO_WEB.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,16 +30,16 @@
                             <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="vistas/tips.php"> <i class="bi bi-search"></i> Tips</a> <!-- Agrega el icono de búsqueda -->
+                            <a class="nav-link active" aria-current="page" href="http://project_hospital.test/vistas/tips.php"> <i class="bi bi-search"></i> Tips</a> <!-- Agrega el icono de búsqueda -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="vistas/services.php">Services</a>
+                            <a class="nav-link" href="http://project_hospital.test/vistas/services.php">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#mapa">Locations</a>
                         </li>
                         <li class="mm nav-item">
-                            <a class="nav-link" href="vistas/login.php"><i class="fas fa-user"></i></a>
+                            <a class="nav-link" href="http://project_hospital.test/vistas/login.php"><i class="fas fa-user"></i></a>
                         </li>
                     </ul>
                 </div>

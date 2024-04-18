@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="Logo navbar-brand" href="#"><img class="Logo" src="img/LOGO_WEB.png"></a>
+                <a class="Logo navbar-brand" href="http://project_hospital.test"><img class="Logo" src="img/LOGO_WEB.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -39,7 +39,7 @@
                             <a class="nav-link" href="#mapa">Locations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.php">
+                            <a class="nav-link" href="http://project_hospital.test/vistas/dashboard.php">
                                 <div class="rectangle2">
                                     <div class="ellipse">
                                         <i class="fas fa-user btn-profile"></i>
@@ -50,13 +50,12 @@
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
-                                <button>
-                                    SI
+                                <button class="btn btn-outline-info">
+                                    Menu
                                 </button>
                                 <div class="dropdown-content"> 
-                                    <a rel="noopener" target="_blank" href="">Filation</a> 
-                                    <a rel="noopener" target="_blank" href="">Configurations</a>
-                                    <a rel="noopener" target="_blank" href="">Logout</a>
+                                    <a rel="noopener"  href="http://project_hospital.test/vistas/filiacion.php">Filation</a> 
+                                    <a rel="noopener" href="logout.php">Logout</a>
                                 </div>
                             </div>
                         </li>

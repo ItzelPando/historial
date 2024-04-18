@@ -1,3 +1,18 @@
+<?php
+session_start();
+// Verificar si ya hay una sesión activa
+if(isset($_SESSION['correo'])) {
+    // Si hay una sesión activa, redirigir al usuario al dashboard correspondiente
+    if(isset($_SESSION['name'])) {
+        header("Location: dashboard.php");
+    } elseif(isset($_SESSION['doctor_id'])) {
+        header("Location: dashboarddoc.php");
+    } elseif(isset($_SESSION['admin_id'])) {
+        header("Location: dashboardadmin.php");
+    }
+    exit; // Asegúrate de salir del script después de redirigir
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +41,7 @@
             </div>
             <div class="col-sm-12 col-md-6">
                 <div class="text-center">
-                    <img src="img/LOGO_WEB.png" alt="" style="height: 51px; width: 137px; margin-top: 100px;">
+                    <a href="http://project_hospital.test/"><img src="img/LOGO_WEB.png" alt="" style="height: 51px; width: 137px; margin-top: 100px;"></a>
                 </div>
                 <div class="text-center">
                     <h1 style="color: #2C86DA;">Welcome back</h1>

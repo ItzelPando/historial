@@ -25,7 +25,7 @@
             </div>
     <div class="col-md-6">
         <div class="text-center">
-            <img src="img/LOGO_WEB.png" alt="" style="height: 51px; width: 137px; margin-top: 75px;">
+            <a href="http://project_hospital.test/"><img src="img/LOGO_WEB.png" alt="" style="height: 51px; width: 137px; margin-top: 100px;"></a>
         </div>
         <div class="text-center">
             <h1 style="color: #2C86DA;">Register</h1>
