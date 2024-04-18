@@ -137,70 +137,70 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm1" name="inmunizacion" value="pen1">Pentavalente 1</label>
+                                    <label><input type="checkbox" id="inm1" name="inmunizacion" value="pen1">Pentavalente 1</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm2" name="inmunizacion" value="pen2">Pentavalente 2</label>
+                                    <label><input type="checkbox" id="inm2" name="inmunizacion" value="pen2">Pentavalente 2</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm3" name="inmunizacion" value="pen3">Pentavalente 3</label>
-                                </div>
-                            </div> <br>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm4" name="inmunizacion" value="opv">OPV (1)</label>
-                                </div>
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm5" name="inmunizacion" value="opv">OPV (2)</label>
-                                </div>
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm6" name="inmunizacion" value="opv">OPV (3)</label>
+                                    <label><input type="checkbox" id="inm3" name="inmunizacion" value="pen3">Pentavalente 3</label>
                                 </div>
                             </div> <br>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm7" name="inmunizacion" value="vph">VPH (1)</label>
+                                    <label><input type="checkbox" id="inm4" name="inmunizacion" value="opv">OPV (1)</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm8" name="inmunizacion" value="vph">VPH (2)</label>
+                                    <label><input type="checkbox" id="inm5" name="inmunizacion" value="opv">OPV (2)</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm9" name="inmunizacion" value="vph">VPH (3)</label>
+                                    <label><input type="checkbox" id="inm6" name="inmunizacion" value="opv">OPV (3)</label>
+                                </div>
+                            </div> <br>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm7" name="inmunizacion" value="vph">VPH (1)</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm8" name="inmunizacion" value="vph">VPH (2)</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm9" name="inmunizacion" value="vph">VPH (3)</label>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm1" name="inmunizacion" value="pen1">Fiebre Amarilla</label>
+                                    <label><input type="checkbox" id="inm1" name="inmunizacion" value="pen1">Fiebre Amarilla</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm2" name="inmunizacion" value="pen2">DTP</label>
+                                    <label><input type="checkbox" id="inm2" name="inmunizacion" value="pen2">DTP</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm3" name="inmunizacion" value="pen3">Influenza</label>
-                                </div>
-                            </div> <br>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm4" name="inmunizacion" value="opv">Hepatitis A (1)</label>
-                                </div>
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm5" name="inmunizacion" value="opv">Hepatitis A (2)</label>
-                                </div>
-                                <div class="col-md-4">
-                                    <label><input type="radio" id="inm6" name="inmunizacion" value="opv">Varicela</label>
+                                    <label><input type="checkbox" id="inm3" name="inmunizacion" value="pen3">Influenza</label>
                                 </div>
                             </div> <br>
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm7" name="inmunizacion" value="vph">BCG</label>
+                                    <label><input type="checkbox" id="inm4" name="inmunizacion" value="opv">Hepatitis A (1)</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm8" name="inmunizacion" value="vph">Hepatits B</label>
+                                    <label><input type="checkbox" id="inm5" name="inmunizacion" value="opv">Hepatitis A (2)</label>
                                 </div>
                                 <div class="col-md-4">
-                                    <label><input type="radio" id="inm9" name="inmunizacion" value="vph">IPB</label>
+                                    <label><input type="checkbox" id="inm6" name="inmunizacion" value="opv">Varicela</label>
+                                </div>
+                            </div> <br>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm7" name="inmunizacion" value="vph">BCG</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm8" name="inmunizacion" value="vph">Hepatits B</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="inm9" name="inmunizacion" value="vph">IPB</label>
                                 </div>
                             </div>
                         </div>
